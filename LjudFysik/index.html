@@ -1,0 +1,61 @@
+<!DOCTYPE html><!-- Ljudfysik projekt -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>TNFY65 Ljudfysik</title>  
+</head>
+
+<body>
+    <div id="center"> 
+    <h1> Rita här </h1>
+	
+
+	<!-- CANVAS -->
+	<canvas id="imageView" width="1000" height="600" style="border:1px solid #c3c3c3;">
+	Your browser does not support the HTML5 canvas tag.
+	</canvas>
+	
+	<!-- Länka till js-filerna -->
+	<script type="text/javascript" src="draw.js" ></script>
+	<script type="text/javascript" src="mikrofon.js" ></script>
+	
+	<!-- En tillbaka-länk -->
+	<p><a href="http://www.student.itn.liu.se/~hanjo306/">Gå tillbaka</a></p>	
+	
+	<!-- Skapa knappar -->
+	<button id="buttonstart" onclick="draw()">START</button>
+	<button id="buttonrecord" onclick="setup()">RECORD</button>
+	<button id="buttonstop" onclick="stopDraw()">STOP</button>
+	<button id="buttonclear" onclick="clearCanvas()">CLEAR</button>
+	
+	</div>
+	
+	<!--footer-->
+	<div id="footer">
+	<hr>
+	<footer id="bottom">
+		<a href="http://validator.w3.org/check/referer"><img
+		src="http://www.w3.org/Icons/valid-xhtml10"
+		style="border:0;width:88px;height:31px"
+		alt="Valid XHTML 1.0!" /></a>
+		
+		<a href="http://jigsaw.w3.org/css-validator/check/referer"><img
+		src="http://jigsaw.w3.org/css-validator/images/vcss"
+		style="border:0;width:88px;height:31px"
+		alt="Valid CSS!" /></a>
+		
+		<p>Verktyg:
+		<a href="http://validator.w3.org/unicorn/check?ucn_uri=referer&amp;ucn_task=conformance">Unicorn</a>
+		Manualer:
+		<a href="http://www.w3.org/2009/cheatsheet/">Cheatsheet</a>
+		<a href="http://dev.w3.org/html5/spec/">HTML5</a> 
+		<a href="https://drafts.csswg.org/css2/">CSS2.2</a> 
+		<a href="http://www.w3.org/Style/CSS/current-work#CSS3">CSS3</a> 
+		<a href="http://php.net/manual/en/index.php">PHP</a> 
+		
+		</p>
+	</footer>
+	</div> 
+
+	</body>
+</html>
